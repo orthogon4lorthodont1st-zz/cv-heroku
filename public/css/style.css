@@ -1,4 +1,6 @@
-
+#bottom {
+  padding-bottom:5%;
+}
 .brand-logo {
   font-family:"New York";
   line-height:230%;
@@ -11,7 +13,7 @@ h4 {
   font-size:100%;
   letter-spacing: 0.6px;
 } 
-.rockPaperScissors a{
+.linksProjects a{
   float:left;
   padding-left:3%;
   color:black;
@@ -23,6 +25,7 @@ body {
 .xTitle {
   font-weight:600;
 }
+
  /*--- NAV BAR ---*/
 nav .nav-wrapper a{
   padding-left:1.5%;
@@ -63,10 +66,8 @@ nav .nav-wrapper ul li a {
   margin-left:auto;
   margin-right:auto;
   padding:1%;
-
 }
-
-
+ /*--- CONTENT END ---*/
 
 /*--- COLLAPSIBLE HEADER ---*/
 #collapseJobs {
@@ -84,8 +85,6 @@ nav .nav-wrapper ul li a {
 }
 /*--- COLLAPSIBLE HEADER END ---*/
 
-
-
 /*--- PARALLAX CONTAINERS ---*/
 .parallax-container {
   width:100%;
@@ -96,15 +95,16 @@ nav .nav-wrapper ul li a {
 }
 /*--- PARALLAX CONTAINER END ---*/
 
-
-/*--- FOOTER ---*/
+/*--- SOCIAL MEDIA LINKS ---*/
 .container ul li {
   font-size:130%;
   display:inline;
-  padding-right:4%;
-  padding-left:4%;
+  padding-right:7%;
+  padding-left:7%;
   margin-left:0;
   margin-right:0;
+  margin-bottom:0;
+  bottom:0;
 }
 .container ul li a {
   font-weight:bold;
@@ -112,8 +112,7 @@ nav .nav-wrapper ul li a {
 .container {
   width:100%;
 }
-/*--- FOOTER END ---*/
-
+/*--- SOCIAL MEDIA LINKS END ---*/
 
 /*--- QUOTE STYLING ---*/
 blockquote {
