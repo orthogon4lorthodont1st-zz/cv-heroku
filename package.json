@@ -15,5 +15,14 @@
     "image-parser": "^1.2.1",
     "parse-image": "^0.2.0",
     "sendgrid": "~3.0.8"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orthogon4lorthodont1st/cv-heroku.git"
+  },
+  "bugs": {
+    "url": "https://github.com/orthogon4lorthodont1st/cv-heroku/issues"
+  },
+  "homepage": "https://github.com/orthogon4lorthodont1st/cv-heroku#readme"
 }
