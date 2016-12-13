@@ -1,0 +1,133 @@
+
+.brand-logo {
+  font-family:"New York";
+  line-height:230%;
+}
+h4 {
+  font-weight:900;
+}
+.contentText {
+  font-weight:700;
+  font-size:100%;
+  letter-spacing: 0.6px;
+} 
+.rockPaperScissors a{
+  float:left;
+  padding-left:3%;
+  color:black;
+  font-weight:700;
+}
+body {
+  font-family:"Source Code Pro", Verdana;
+}
+.xTitle {
+  font-weight:600;
+}
+ /*--- NAV BAR ---*/
+nav .nav-wrapper a{
+  padding-left:1.5%;
+}
+nav .nav-wrapper ul li a {
+  padding-left:20%;
+ }
+ nav .nav-wrapper ul {
+   margin-right:20px;
+ }
+.button-collapse {
+  color: white;
+}
+.nav-wrapper ul li a {
+  color:white;
+}
+.nav-wrapper {
+  background-color:black;
+}
+.side-nav {
+  background-color:black;
+}
+.navToAppend li{
+  float:right;
+  padding-right:1%;
+  padding-left:1%;
+}
+@media screen and (min-width: 0px) and (max-width: 995px) {
+  .navToAppend li {
+    visibility:hidden;
+  }
+}
+/*--- NAV BAR END */
+
+/*--- CONTENT ---*/
+.section {
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  padding:1%;
+
+}
+
+
+
+/*--- COLLAPSIBLE HEADER ---*/
+#collapseJobs {
+  font-weight:900;
+  text-transform:uppercase;
+}
+#collapseEducation {
+  font-weight:900;
+  text-transform:uppercase;
+}
+.section ul li {
+  font-size:130%;
+  display:inline;
+
+}
+/*--- COLLAPSIBLE HEADER END ---*/
+
+
+
+/*--- PARALLAX CONTAINERS ---*/
+.parallax-container {
+  width:100%;
+  min-height: 370px;
+  height: auto;
+  margin-top:1%;
+  margin-bottom:1%; 
+}
+/*--- PARALLAX CONTAINER END ---*/
+
+
+/*--- FOOTER ---*/
+.container ul li {
+  font-size:130%;
+  display:inline;
+  padding-right:4%;
+  padding-left:4%;
+  margin-left:0;
+  margin-right:0;
+}
+.container ul li a {
+  font-weight:bold;
+}
+.container {
+  width:100%;
+}
+/*--- FOOTER END ---*/
+
+
+/*--- QUOTE STYLING ---*/
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote p {
+  display: inline;
+}
+
+.quoteText {
+  font-size:3.1em;
+}
+/*--- QUOTE STYLING END ---*/
