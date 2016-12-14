@@ -126,31 +126,6 @@ blockquote p {
 }
 /*--- SOCIAL MEDIA LINKS END ---*/
 
-/*--- PROJECTS ---*/
-#projectRow {
-  padding-bottom:6%;
-  padding-top:3%;
-}
-.linksProjects a{
-  float:left;
-  padding-left:3%;
-  color:black;
-  font-weight:700;
-}
-.projects{
-  padding-left:5%;
-  padding-bottom:0;
-  line-height:55%;
-  width:50%;
-  font-size:1200%;
-  color:darkgrey;
-  
-}
-#proj {
-  padding-left:5.6%;
-}
-
-/*--- PROJECTS END ---*/
 
 /*--- CONTACT FORM ---*/
 .btn {
@@ -208,3 +183,44 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 /*--- CONTACT FORM END ---*/
 
+
+/*--- PROJECTS ---*/
+#projectRow {
+  padding-bottom:6%;
+  padding-top:3%;
+}
+.linksProjects a{
+  float:left;
+  padding-left:3%;
+  color:black;
+  font-weight:700;
+}
+.projects{
+  float:left;
+  margin-left:5%;
+  line-height:48%;
+  font-size:1200%;
+  color:darkgrey;
+}
+#proj {
+  margin-left:5.58%;
+}
+@media screen and (min-width: 600px) and (max-width: 995px) {
+  .projects {
+    line-height:40%;
+    font-size:900%;
+  }
+  #proj {
+    margin-left:5.56%;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .projects {
+    line-height:28%;
+    font-size:550%;
+  }
+  #proj {
+    margin-left:5.5%;
+  }
+}
+/*--- PROJECTS END ---*/
