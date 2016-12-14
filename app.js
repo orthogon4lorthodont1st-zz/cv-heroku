@@ -12,8 +12,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(routes);
 app.use(contactRoutes);
-
 // Listen for output
 app.listen(process.env.PORT || 3000, () => {
     console.log(`Server listening at ${process.env.port || 3000}`);
-})
+});

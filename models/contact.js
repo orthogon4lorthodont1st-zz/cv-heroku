@@ -36,5 +36,4 @@ class Contact {
         this.sentDate = new Date();
     }
 }
-
 module.exports = Contact;
