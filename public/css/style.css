@@ -1,6 +1,5 @@
-#bottom {
-  padding-bottom:5%;
-}
+
+
 .brand-logo {
   font-family:"New York";
   line-height:230%;
@@ -13,12 +12,6 @@ h4 {
   font-size:100%;
   letter-spacing: 0.6px;
 } 
-.linksProjects a{
-  float:left;
-  padding-left:3%;
-  color:black;
-  font-weight:700;
-}
 body {
   font-family:"Source Code Pro", Verdana;
 }
@@ -61,13 +54,13 @@ nav .nav-wrapper ul li a {
 /*--- NAV BAR END */
 
 /*--- CONTENT ---*/
+/************************/
 .section {
   width:90%;
   margin-left:auto;
   margin-right:auto;
   padding:1%;
 }
- /*--- CONTENT END ---*/
 
 /*--- COLLAPSIBLE HEADER ---*/
 #collapseJobs {
@@ -95,7 +88,26 @@ nav .nav-wrapper ul li a {
 }
 /*--- PARALLAX CONTAINER END ---*/
 
-/*--- SOCIAL MEDIA LINKS ---*/
+/*--- QUOTE STYLING ---*/
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote p {
+  display: inline;
+}
+
+.quoteText {
+  font-size:3.1em;
+}
+/*--- QUOTE STYLING END ---*/
+/********************************/
+/*--- CONTENT END ---*/
+
+ /*--- SOCIAL MEDIA LINKS ---*/
 .container ul li {
   font-size:130%;
   display:inline;
@@ -114,19 +126,53 @@ nav .nav-wrapper ul li a {
 }
 /*--- SOCIAL MEDIA LINKS END ---*/
 
-/*--- QUOTE STYLING ---*/
-blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+/*--- PROJECTS ---*/
+#projectRow {
+  padding-bottom:6%;
+  padding-top:3%;
 }
-blockquote p {
-  display: inline;
+.linksProjects a{
+  float:left;
+  padding-left:3%;
+  color:black;
+  font-weight:700;
+}
+.projects{
+  padding-left:5%;
+  padding-bottom:0;
+  line-height:55%;
+  width:50%;
+  font-size:1200%;
+  color:darkgrey;
+  
+}
+#proj {
+  padding-left:5.6%;
 }
 
-.quoteText {
-  font-size:3.1em;
+/*--- PROJECTS END ---*/
+
+/*--- CONTACT FORM ---*/
+.btn {
+  background:black;
+  width:50%;
 }
-/*--- QUOTE STYLING END ---*/
+.btn:hover {
+  -webkit-transform:scale(1.05); /* Safari and Chrome */
+  -moz-transform:scale(1.05); /* Firefox */
+  -ms-transform:scale(1.05); /* IE 9 */
+  -o-transform:scale(1.05); /* Opera */
+  transform:scale(1.05);
+  background:lightgrey;
+  color:black;
+  font-weight:700;
+}
+.btn:active {
+    -webkit-transform:scale(.95); /* Safari and Chrome */
+    -moz-transform:scale(.95); /* Firefox */
+    -ms-transform:scale(.95); /* IE 9 */
+    -o-transform:scale(.95); /* Opera */
+     transform:scale(.95);
+}
+/*--- CONTACT FORM END ---*/
+
