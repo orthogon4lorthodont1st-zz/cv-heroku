@@ -190,10 +190,12 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   padding-top:3%;
 }
 .linksProjects a{
-  float:left;
+  float:right;
   padding-left:3%;
   color:black;
   font-weight:700;
+  padding-right:10%;
+  padding-top:5%;
 }
 .projects{
   float:left;
@@ -210,14 +212,26 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     line-height:40%;
     font-size:900%;
   }
+  .linksProjects {
+    font-size:100%;
+    float:right;
+    line-height:110%;
+    padding-right:7%;
+  }
   #proj {
     margin-left:5.56%;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 700px) {
   .projects {
+    padding-left:4%;
     line-height:28%;
     font-size:550%;
+  }
+  .linksProjects {
+    font-size:75%;
+    float:right;
+    line-height:70%;
   }
   #proj {
     margin-left:5.5%;
