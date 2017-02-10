@@ -194,7 +194,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   padding-left:3%;
   color:black;
   font-weight:700;
-  padding-right:10%;
+  padding-right:8%;
   padding-top:5%;
 }
 .projects{
